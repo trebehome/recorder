@@ -1,0 +1,102 @@
+<nav class="navbar navbar-expand-lg bg-white position-sticky py-lg-2 py-1">
+	<div class="container-fluid">
+		{{ $base := .Site.GetPage "/" }}
+		<a href="{{ $base.Permalink }}" class="navbar-brand ms-lg-4 ms-2 me-lg-5">
+			<img src="../img/trebe_logo.svg" width="140" height="63" class="img-fluid" alt="Logo">
+		</a>
+		<button class="navbar-toggler me-3" id="menu-button" type="button" data-bs-toggle="collapse"
+			data-bs-target="#menu-options" aria-controls="menu-options" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<div class="position-relative m-0" id="menu-icon">
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+				<span class="d-block position-absolute bg-dark opacity-100"></span>
+			</div>
+		</button>
+		<div class="collapse navbar-collapse" id="menu-options">
+			<ul class="navbar-nav ms-auto me-lg-4 text-center align-items-lg-center align-items-start">
+				<li class="nav-item px-lg-2 px-4">
+					<div class="dropdown text-start">
+						<button class="btn dropdown-toggle nav-link border-0 ps-lg-2 ps-0" type="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							{{ i18n "translate" }}
+						</button>
+						<ul class="dropdown-menu dropdown-menu-end mb-lg-0 mb-2 ps-2 pe-4">
+							{{ $link := .Site.GetPage "/translate/text" }}
+							<li>
+								<a class="dropdown-item my-2" href="{{ $link.Permalink }}">
+									{{ i18n "translate_text" }}
+								</a>
+							</li>
+							{{ $link := .Site.GetPage "/translate/docs" }}
+							<li>
+								<a class="dropdown-item my-2" href="{{ $link.Permalink }}">
+									{{ i18n "translate_docs" }}
+								</a>
+							</li>
+							{{ $link := .Site.GetPage "/translate/subtitles" }}
+							<li>
+								<a class="dropdown-item my-2" href="{{ $link.Permalink }}">
+									{{ i18n "translate_subtitles" }}
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item px-lg-2 px-4">
+					<div class="dropdown text-start">
+						<button class="btn dropdown-toggle nav-link border-0 ps-lg-2 ps-0" type="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							{{ i18n "transcription" }}
+						</button>
+						<ul class="dropdown-menu dropdown-menu-end mb-lg-0 mb-2 ps-2 pe-4">
+							{{ $link := .Site.GetPage "/transcribe/media" }}
+							<li>
+								<a class="dropdown-item my-2" href="{{ $link.Permalink }}">
+									{{ i18n "transcription_media" }}
+								</a>
+							</li>
+							{{ $link := .Site.GetPage "/transcribe/online" }}
+							<li>
+								<a class="dropdown-item my-2" href="{{ $link.Permalink }}">
+									{{ i18n "transcription_online" }}
+								</a>
+							</li>
+							{{ $link := .Site.GetPage "/transcribe/streaming" }}
+							<li>
+								<a class="dropdown-item my-2" href="{{ $link.Permalink }}">
+									{{ i18n "transcription_streaming" }}
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item px-lg-2 px-4 mb-lg-0 mb-3">
+					<div class="dropdown text-start">
+						<button class="btn dropdown-toggle nav-link border-0 ps-lg-2 ps-0" type="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							{{ i18n "synthesis" }}
+						</button>
+						<ul class="dropdown-menu dropdown-menu-end mb-lg-0 mb-2 ps-2 pe-4">
+							{{ $link := .Site.GetPage "/synthesis/text" }}
+							<li>
+								<a class="dropdown-item my-2" href="{{ $link.Permalink }}">
+									{{ i18n "synthesis_text" }}
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="nav-item d-flex justify-content-center align-items-center mx-4 mb-lg-0 mb-3">
+					<select class="form-control text-dark text-uppercase" id="changeLang">
+						<option selected>{{ .Lang }}</option>
+						{{ range .Translations }}
+						<option class="language" value="{{ .Permalink }}">{{ .Lang }}</option>
+						{{ end }}
+					</select>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

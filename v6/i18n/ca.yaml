@@ -1,0 +1,160 @@
+- id: translate_text
+  translation: Traducció de text
+- id: translate_docs
+  translation: Traducció de documents
+- id: translate_subtitles
+  translation: Traducció de subtítols
+- id: transcription
+  translation: Transcripció
+- id: transcription_media
+  translation: Transcripció multimèdia
+- id: transcription_online
+  translation: Transcripció online
+- id: transcription_streaming
+  translation: Transcripció en streaming
+- id: synthesis
+  translation: Síntesi de veu
+- id: synthesis_text
+  translation: Síntesi de veu des de text
+- id: slogan
+  translation: Tecnologies del Llenguatge
+- id: description
+  translation: La primera plataforma perquè tradueixis, transcriguis i sintetitzis veus en espanyol, basc, gallec i català.
+- id: translate
+  translation: Traducció
+- id: model
+  translation: Model
+- id: es2eu
+  translation: Castellà - Èuscar
+- id: eu2es
+  translation: Èuscar - Castellà
+- id: eu2en
+  translation: Èuscar - Anglès
+- id: en2eu
+  translation: Anglès - Èuscar
+- id: eu2fr
+  translation: Èuscar - Francès
+- id: fr2eu
+  translation: Francès - Èuscar
+- id: es2en
+  translation: Castellà - Anglès
+- id: en2es
+  translation: Anglès - Castellà
+- id: es2fr
+  translation: Castellà - Francès
+- id: fr2es
+  translation: Francès - Castellà
+- id: es2ca
+  translation: Castellà - Català
+- id: ca2es
+  translation: Català - Castellà
+- id: es2gl
+  translation: Castellà - Gallec
+- id: gl2es
+  translation: Gallec - Castellà
+- id: spanish
+  translation: Castellà
+- id: basque
+  translation: Èuscar
+- id: english
+  translation: Anglès
+- id: catalan
+  translation: Català
+- id: galician
+  translation: Gallec
+- id: input_text
+  translation: Introduir text
+- id: make_translation
+  translation: Traduir
+- id: make_transcription
+  translation: Transcriure
+- id: diarization
+  translation: Diarització
+- id: diarization_info
+  translation: Identificació i separació de parlants
+- id: output_filename
+  translation: Nom del fitxer de sortida (opcional)
+- id: output_formats
+  translation: Formats de sortida
+- id: send_link
+  translation: Enviar enllaç
+- id: send_attachment
+  translation: Enviar adjunt
+- id: generate
+  translation: Generar
+- id: clear
+  translation: Esborrar
+- id: clipboard_copy
+  translation: Copiat
+- id: drop_file
+  translation: Arrossega fins aquí un arxiu
+- id: loading
+  translation: Carregant
+- id: loading_file
+  translation: S'està carregant l'arxiu
+- id: we_translate_text
+  translation: Traduirem el text i
+- id: we_translate_file
+  translation: Traduirem l'arxiu i
+- id: we_transcribe_file
+  translation: Transcriurem l'arxiu i
+- id: we_synthesize_text
+  translation: Sintetitzarem el text i
+- id: result_in_email
+  translation: rebràs el resultat al teu correu
+- id: wait
+  translation: Això pot portar uns minuts
+- id: start_recording
+  translation: Començar gravació
+- id: end_recording
+  translation: Finalitzar gravació
+- id: transcribing_audio
+  translation: Transcrivint àudio
+- id: event_datetime
+  translation: Data i hora de l'esdeveniment
+- id: duration_hours
+  translation: Durada de l'esdeveniment
+- id: event_language
+  translation: Idioma de l'esdeveniment
+- id: wanted_services
+  translation: Serveis desitjats
+- id: realtime_subtitulation
+  translation: Subtitulació en temps real
+- id: subtitles_file_generation
+  translation: Generació d'arxiu de subtítols
+- id: transcription_file_generation
+  translation: Generació de document de transcripció
+- id: translation_generation_languages
+  translation: Generació de traducció a
+- id: transmission_stats_report
+  translation: Informe d'estadístiques de la retransmissió
+- id: transmission_type
+  translation: Tipus de retransmissió que desitja realitzar
+- id: submit
+  translation: Enviar
+- id: request_key
+  translation: Sol·licitar clau
+- id: need_key
+  translation: No tens clau?
+- id: name
+  translation: Nom
+- id: surname
+  translation: Cognoms
+- id: company
+  translation: Empresa
+- id: phone
+  translation: Telèfon
+- id: email
+  translation: Email
+- id: comments
+  translation: Comentaris
+- id: send
+  translation: Enviar
+- id: comment_interest
+  translation: Per què t'interessa? Quins serveis utilitzaràs?
+- id: find_us
+  translation: Estem en
+- id: contact
+  translation: Contacte
+- id: duration
+  translation: Duració

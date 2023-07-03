@@ -1,0 +1,129 @@
+{{ define "main" }}
+<div class="container mt-4 px-3 pt-lg-4 mb-lg-0 mb-5 pb-lg-0 pb-5">
+	<h3 class="ms-2">
+		{{ i18n "transcription_streaming" }}
+	</h3>
+	<div class="row mt-4">
+		<div class="row mt-3 m-0 justify-content-center">
+			<form class="row justify-content-lg-start" action="https://api.staticforms.xyz/submit" method="post">
+				<div class="col-lg-6 col-12 pe-lg-5">
+					<div class="text-start my-3">
+						<label class="mb-1" for="name">{{ i18n "name" }}:</label>
+						<input type="text" maxlength="64" class="form-control poppins-light " id="name" name="$name"
+							required>
+					</div>
+					<div class="text-start my-3">
+						<label class="mb-1" for="surname">{{ i18n "surname" }}:</label>
+						<input type="text" maxlength="128" class="form-control poppins-light" id="surname"
+							name="$surname" required>
+					</div>
+					<div class="text-start my-3">
+						<label class="mb-1" for="email">{{ i18n "email" }}:</label>
+						<input type="text" maxlength="128" class="form-control poppins-light" id="email" name="$email"
+							required>
+					</div>
+					<div class="text-start my-3">
+						<label class="mb-1" for="phone">{{ i18n "phone" }}:</label>
+						<input type="text" maxlength="64" class="form-control poppins-light" id="phone" name="$phone"
+							required>
+					</div>
+					<div class="text-start my-3">
+						<label class="mb-1" for="datetime">{{ i18n "event_datetime" }}:</label>
+						<input type="datetime-local" class="form-control poppins-light" id="datetime" name="$datetime"
+							required>
+					</div>
+					<div class="text-start my-3">
+						<label class="mb-1" for="duration">{{ i18n "duration_hours" }}:</label>
+						<input type="text" maxlength="64" class="form-control poppins-light" id="duration"
+							name="$duration" required>
+					</div>
+					<div class="text-start my-3">
+						<label class="mb-1" for="language">{{ i18n "event_language" }}:</label>
+						<select class="form-control poppins-light" id="language" name="$language">
+							<option value="es">{{ i18n "spanish" }}</option>
+							<option value="eu">{{ i18n "basque" }}</option>
+							<option value="en">{{ i18n "english" }}</option>
+							<option value="es_eu">{{ i18n "es2eu" }}</option>
+							<option value="es_ca">{{ i18n "es2ca" }}</option>
+							<option value="es_gl">{{ i18n "es2gl" }}</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-lg-6 col-12 ps-lg-4">
+					<div class="text-start my-3">
+						<label class="mb-1" for="comments">{{ i18n "comments" }}:</label>
+						<textarea type="text" maxlength="8192" class="form-control poppins-light" id="comments"
+							name="$comments" placeholder='{{ i18n "transmission_type" }}' rows="21" required></textarea>
+					</div>
+				</div>
+
+				<div class="col-lg-7 col-12 my-5 mb-lg-5 mb-0">
+					<div class="h5">{{ i18n "wanted_services" }}:</div>
+					<div class="px-3">
+						<div class="form-group">
+							<label class="form-check-label my-2" for="streaming">
+								<input type="checkbox" class="form-check-input" id="streaming" name="$streaming"
+									checked>
+								{{ i18n "realtime_subtitulation" }}
+							</label>
+						</div>
+						<div class="form-group">
+							<label class="form-check-label my-2" for="srt">
+								<input type="checkbox" class="form-check-input" id="srt" name="$srt" checked>
+								{{ i18n "subtitles_file_generation" }} (.srt)
+							</label>
+						</div>
+						<div class="form-group">
+							<label class="form-check-label my-2" for="docx">
+								<input type="checkbox" class="form-check-input" id="docx" name="$docx" checked>
+								{{ i18n "transcription_file_generation" }} (.docx)
+							</label>
+						</div>
+						<div class="form-group">
+							<label class="form-check-label my-2" for="stats">
+								<input type="checkbox" class="form-check-input" id="stats" name="$stats" checked>
+								{{ i18n "transmission_stats_report" }}
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-12 my-5">
+					<div class="h5">{{ i18n "translation_generation_languages" }}:</div>
+					<div class="px-3">
+						<div class="form-group d-inline-block my-1 mt-2">
+							<input type="checkbox" class="form-check-input" id="es" name="$es" checked>
+							<label class="form-check-label me-3" for="es">{{ i18n "spanish" }}</label>
+						</div>
+						<div class="form-group d-inline-block my-1">
+							<input type="checkbox" class="form-check-input" id="eu" name="$eu" checked>
+							<label class="form-check-label me-3" for="eu">{{ i18n "basque" }}</label>
+						</div>
+						<div class="form-group d-inline-block my-1">
+							<input type="checkbox" class="form-check-input" id="en" name="$en" checked>
+							<label class="form-check-label me-3" for="en">{{ i18n "english" }}</label>
+						</div>
+						<div class="form-group d-inline-block my-1">
+							<input type="checkbox" class="form-check-input" id="ca" name="$ca" checked>
+							<label class="form-check-label me-3" for="ca">{{ i18n "catalan" }}</label>
+						</div>
+						<div class="form-group d-inline-block my-1">
+							<input type="checkbox" class="form-check-input" id="gl" name="$gl" checked>
+							<label class="form-check-label" for="gl">{{ i18n "galician" }}</label>
+						</div>
+					</div>
+				</div>
+
+				<input type="text" name="honeypot">
+				<input type="hidden" name="accessKey" value="b69ea341-099e-4479-bddb-ea7d2822ddbd">
+				<input type="hidden" name="subject" value="Streaming request">
+				<input type="hidden" name="replyTo" value="@">
+				<input type="hidden" name="redirectTo" value="https://demo.trebe.org/{{ .Language }}">
+
+				<div class="text-start my-4 text-center">
+					<button type="submit" class="btn mt-2 text-white" id="requestButton">{{ i18n "send" }}</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+{{ end }}

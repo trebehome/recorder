@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="wrapper">
+    <div class="container-fluid ps-0">
+        <section>
+            <div
+                class="row justify-content-lg-start ms-lg-5 justify-content-center align-items-center gap-lg-5 home-main-section">
+                <div class="col-lg-5 col-md-7 col-10 mb-lg-5">
+                    <img src="../img/home.svg" width="100%" height="auto" alt="Home" id="home">
+                </div>
+                <div class="col-lg-5 col-md-7 col-8 pe-lg-5 pe-0">
+                    <h1 class="mt-lg-0 mb-3">
+                        {{ i18n "slogan" }}
+                    </h1>
+                    <div class="forma1"></div>
+                    <div class="poppins-regular pe-lg-5 pe-0 pb-lg-0 pb-5 mb-lg-0 mb-5" id="description">
+                        {{ i18n "description" }}
+                    </div>
+                </div>
+            </div>
+            <div class="forma2 mt-lg-0 mt-md-0 mt-5"></div>
+        </section>
+    </div>
+</div>
+{{ end }}

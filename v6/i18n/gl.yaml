@@ -1,0 +1,160 @@
+- id: translate_text
+  translation: Tradución de texto
+- id: translate_docs
+  translation: Tradución de documentos
+- id: translate_subtitles
+  translation: Tradución de subtítulos
+- id: transcription
+  translation: Transcrición
+- id: transcription_media
+  translation: Transcrición multimedia
+- id: transcription_online
+  translation: Transcrición online
+- id: transcription_streaming
+  translation: Transcrición en streaming
+- id: synthesis
+  translation: Síntese de voz
+- id: synthesis_text
+  translation: Síntese de voz desde texto
+- id: slogan
+  translation: Tecnoloxías da Linguaxe
+- id: description
+  translation: A primeira plataforma para que traduzas, transcribas e sintetices voces en castelán, éuscaro, galego e catalán.
+- id: translate
+  translation: Tradución
+- id: model
+  translation: Modelo
+- id: es2eu
+  translation: Castelán - Éuscaro
+- id: eu2es
+  translation: Éuscaro - Castelán
+- id: eu2en
+  translation: Éuscaro - Inglés
+- id: en2eu
+  translation: Inglés - Éuscaro
+- id: eu2fr
+  translation: Éuscaro - Francés
+- id: fr2eu
+  translation: Francés - Éuscaro
+- id: es2en
+  translation: Castelán - Inglés
+- id: en2es
+  translation: Inglés - Castelán
+- id: es2fr
+  translation: Castelán - Francés
+- id: fr2es
+  translation: Francés - Castelán
+- id: es2ca
+  translation: Castelán - Catalán
+- id: ca2es
+  translation: Catalán - Castelán
+- id: es2gl
+  translation: Castelán - Galego
+- id: gl2es
+  translation: Galego - Castelán
+- id: spanish
+  translation: Castelán
+- id: basque
+  translation: Éuscaro
+- id: english
+  translation: Inglés
+- id: catalan
+  translation: Catalán
+- id: galician
+  translation: Galego
+- id: input_text
+  translation: Indique o texto
+- id: make_translation
+  translation: Traducir
+- id: make_transcription
+  translation: Transcribir
+- id: diarization
+  translation: Diarización
+- id: diarization_info
+  translation: Identificación e separación de falantes
+- id: output_filename
+  translation: Nome do ficheiro de saída (opcional)
+- id: output_formats
+  translation: Formatos de saída
+- id: send_link
+  translation: Enviar a ligazón
+- id: send_attachment
+  translation: Enviar o anexo
+- id: generate
+  translation: Xerar
+- id: clear
+  translation: Limpar
+- id: clipboard_copy
+  translation: Copiado
+- id: drop_file
+  translation: Arrastra até aquí un ficheiro
+- id: loading
+  translation: A cargar
+- id: loading_file
+  translation: A cargar o ficheiro
+- id: we_translate_text
+  translation: Traduciremos o texto e
+- id: we_translate_file
+  translation: Traduciremos o ficheiro e
+- id: we_transcribe_file
+  translation: Transcribiremos o ficheiro e
+- id: we_synthesize_text
+  translation: Sintetizaremos o texto e
+- id: result_in_email
+  translation: recibirás o resultado no teu correo
+- id: wait
+  translation: Isto pode levar uns minutos
+- id: start_recording
+  translation: Iniciar a gravación
+- id: end_recording
+  translation: Finalizar a gravación
+- id: transcribing_audio
+  translation: A transcribir o son
+- id: event_datetime
+  translation: Data e hora do evento
+- id: duration_hours
+  translation: Duración do evento
+- id: event_language
+  translation: Lingua do evento
+- id: wanted_services
+  translation: Servizos desexados
+- id: realtime_subtitulation
+  translation: Subtitulación en tempo real
+- id: subtitles_file_generation
+  translation: Xeración de ficheiros de subtítulos
+- id: transcription_file_generation
+  translation: Xeración de documento de transcrición
+- id: translation_generation_languages
+  translation: Xeración de tradución en
+- id: transmission_stats_report
+  translation: Informe de estatísticas da retransmisión
+- id: transmission_type
+  translation: Tipo de retransmisión que desexa realizar
+- id: submit
+  translation: Enviar
+- id: request_key
+  translation: Solicitar chave
+- id: need_key
+  translation: Non tes clave?
+- id: name
+  translation: Nome
+- id: surname
+  translation: Apelidos
+- id: company
+  translation: Empresa
+- id: phone
+  translation: Teléfono
+- id: email
+  translation: Email
+- id: comments
+  translation: Comentarios
+- id: send
+  translation: Enviar
+- id: comment_interest
+  translation: Por que che interesa? Que servizos vas utilizar?
+- id: find_us
+  translation: Estamos en
+- id: contact
+  translation: Contacto
+- id: duration
+  translation: Duración

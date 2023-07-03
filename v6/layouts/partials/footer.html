@@ -1,0 +1,74 @@
+<footer class="bg-light py-4 mt-5">
+    <div class="row justify-content-center m-0">
+        <div class="col-lg-5 col-12 text-center mb-lg-0 mb-1">
+            <img src="../img/footer_logo.svg" width="143" height="106" alt="Logo">
+        </div>
+        <div class="col-lg-7 col-12 d-flex justify-content-evenly flex-wrap align-content-center mt-lg-0 mt-4">
+            <div class="text-center mt-lg-0 mt-md-0 mt-4 mb-lg-0 mb-md-0 mb-3 ps-lg-5">
+                <div class="mb-1">
+                    {{ i18n "find_us" }}
+                </div>
+                <div class="mt-1 poppins-light">
+                    Paseo Mikeletegi 71, 3º
+                    <br>
+                    Vicomtech Innovation Hub
+                    <br>
+                    Donostia, 20009
+                </div>
+            </div>
+            <div class="d-lg-none d-md-none w-100"></div>
+            <div class="text-center mt-lg-0 mt-md-0 mt-4 mb-lg-0 mb-4">
+                <div class="mb-1">
+                    {{ i18n "contact" }}
+                </div>
+                <div class="mt-1 poppins-light">
+                    <a href="mailto:info@trebe.org" class="text-decoration-none poppins-light" id="contact-email">
+                        info@trebe.org
+                    </a>
+                    <br>
+                    <span class="poppins-light">
+                        +(34) 943 768 296
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" crossorigin="anonymous"></script>
+
+{{ $main := resources.Get "js/main.js" }}
+{{ $configureAPIkey := resources.Get "js/configureAPIkey.js" }}
+{{ $clearTextBox := resources.Get "js/clearTextBox.js" }}
+{{ $tooltip := resources.Get "js/tooltip.js" }}
+{{ $synthesis := resources.Get "js/synthesis.js" }}
+{{ $validateFile := resources.Get "js/validateFile.js" }}
+{{ $transcribeMedia := resources.Get "js/transcribeMedia.js" }}
+{{ $transcribeOnline := resources.Get "js/transcribeOnline.js" }}
+{{ $translateSubtitles := resources.Get "js/translateSubtitles.js" }}
+{{ $translateDocs := resources.Get "js/translateDocs.js" }}
+{{ $translateText := resources.Get "js/translateText.js" }}
+
+{{ if eq .Params.script "synthesis" }}
+{{ $js1 := slice $main $configureAPIkey $clearTextBox $synthesis | resources.Concat "js/synthesis.js" | minify }}
+<script src="{{ $js1.Permalink }}"></script>
+{{ else if eq .Params.script "transcribeMedia" }}
+{{ $js2 := slice $main $configureAPIkey $validateFile $tooltip $transcribeMedia | resources.Concat "js/transcribeMedia.js" | minify }}
+<script src="{{ $js2.Permalink }}"></script>
+{{ else if eq .Params.script "transcribeOnline" }}
+{{ $js2 := slice $main $configureAPIkey $clearTextBox $tooltip $transcribeOnline | resources.Concat "js/transcribeOnline.js" | minify }}
+<script src="{{ $js2.Permalink }}"></script>
+{{ else if eq .Params.script "translateSubtitles" }}
+{{ $js3 := slice $main $configureAPIkey $validateFile $translateSubtitles | resources.Concat "js/translateSubtitles.js" | minify }}
+<script src="{{ $js3.Permalink }}"></script>
+{{ else if eq .Params.script "translateDocs" }}
+{{ $js4 := slice $main $configureAPIkey $validateFile $translateDocs | resources.Concat "js/translateDocs.js" | minify }}
+<script src="{{ $js4.Permalink }}"></script>
+{{ else if eq .Params.script "translateText" }}
+{{ $js5 := slice $main $configureAPIkey $clearTextBox $tooltip $translateText | resources.Concat "js/translateText.js" | minify }}
+<script src="{{ $js5.Permalink }}"></script>
+{{ else }}
+{{ $js6 := $main | minify }}
+<script src="{{ $js6.Permalink }}"></script>
+{{ end }}
