@@ -54,7 +54,7 @@ function resetTimer() {
                                     document.querySelector("audio").src = URL.createObjectURL(blob);
 
                                     // Transcribe audio
-                                    //audioTranscribe(blob);
+                                    audioTranscribe(blob);
                                   }
 
                             // Event listener when data is sent
@@ -188,7 +188,6 @@ function blobToBase64(blob) {
 }
 
 // Transcription of file
-
 async function audioTranscribe(blob) {
     const API_URL = "https://api.trebesrv.com/transcription/v1/online/transcribe";
 
@@ -239,10 +238,8 @@ async function audioTranscribe(blob) {
 }
 
 // Copy output text to clipboard
-/*
 function copyToClipboard() {
     let text = $("#outputTranscription");
     text.select();
     navigator.clipboard.writeText(text.val());
 }
-*/
