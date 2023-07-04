@@ -1,0 +1,100 @@
+{{ define "main" }}
+<div class="container mt-4 px-3 pt-lg-4 mb-lg-0 mb-5 pb-lg-0 pb-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-4 col-12 text-center">
+      <h3 class="ms-2">Grabadora Online</h3>
+    </div>
+  </div>
+    <div class="row mt-4">
+      <!--
+        <div class="col-12 row m-0">
+            <div class="col-lg-4 col-12 mt-2">
+                <label class="mb-1" for="model">{{ i18n "model" }}:</label>
+                <select class="form-select" id="model" name="model">
+                    <option value="es">{{ i18n "spanish" }}</option>
+                    <option value="eu">{{ i18n "basque" }}</option>
+                    <option value="en">{{ i18n "english" }}</option>
+                    <option value="es_eu">{{ i18n "spanish" }} - {{ i18n "basque" }}</option>
+                    <option value="es_ca">{{ i18n "spanish" }} - {{ i18n "catalan" }}</option>
+                    <option value="es_gl">{{ i18n "spanish" }} - {{ i18n "galician" }}</option>
+                </select>
+            </div>
+            {{- partial "apiKey.html" . -}}
+        </div>
+        <div class="col-12 mt-1">
+          <input class="form-check-input" type="checkbox" id="diarization">
+          <label class="form-check-label me-1" for="diarization">{{ i18n "diarization" }}</label>
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor"
+              class="bi bi-info-circle" viewBox="0 0 16 16" data-bs-toggle="tooltip" data-bs-placement="right"
+              data-bs-trigger="hover" title='{{ i18n "diarization_info" }}'>
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+              <path
+                  d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+          </svg>
+      </div>
+      -->
+        <div class="row justify-content-center m-0 mt-3">
+            <div class="col-lg-5 col-12 row align-content-center gap-2 mt-lg-0 mt-4 pe-lg-5">
+              <div class="col-12 text-center">
+                <div class="row">
+                  <div class="col-2">
+                    <button type="button" class="btn m-1 mt-2 text-white" id="recordStartButton" aria-label="recordStartButton"><!--Start--> 🔴</button>
+                  </div>
+                  <div class="col-2">
+                    <button type="button" class="btn m-1 mt-2 text-white" id="stopRecordingButton" aria-label="stopRecordingButton" disabled><!--Stop--> ⏹️</button>
+                  </div>
+                  <div class="col-2">
+                    <button type="button" class="btn m-1 mt-2 text-white" id="continueRecordingButton" aria-label="continueRecordingButton" disabled><!--Resume--> ⏯️</button>
+                  </div>
+                  <div class="col-2">
+                    <button type="button" class="btn m-1 mt-2 text-white" id="recordEndButton" aria-label="recordEndButton" disabled><!--End--> 💾</button>
+                  </div>
+              
+                  <div class="col-2">
+                    <button type="button" class="btn m-1 mt-2 text-white" id="cancelRecordingButton" aria-label="cancelRecordingButton" disabled><!--Cancel--> ❌</button>
+                  </div>
+                  <div class="col-2">
+                    <button type="button" class="btn m-1 mt-2 text-white" id="newRecordingButton" aria-label="newRecordingButton" disabled><!--New Recording--></button>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="col-12 text-center">
+                <p id="duration">{{ i18n "duration" }}</p>
+                <audio class="btn col-lg-11 col-md-8 col-12" controls playsinline id="audioPlayer" src="">
+                  <source id="audioPlayer" type="audio/wav">
+                </audio>
+              </div>
+              <!--
+              <div class="col-12 my-lg-5 my-lg-5 my-3">
+                <div class="text-center mb-2">
+                  <div id="loading_file">
+                    <h3 class="mb-lg-4">Transcribing audio...</h3>
+                  </div>
+                </div>
+              </div>
+                  
+            </div>
+            <div class="col-lg-7 col-12 ps-lg-5 pe-lg-0 text-center" id="transcriptionBox">
+                <label for="outputTranscription" class="hidden-label">Output</label>
+                <textarea class="col-12 rounded-3" id="outputTranscription" rows="12" disabled></textarea>
+                <button type="button" class="btn bg-light text-center" id="clipboard-tkonline" aria-label="clipboard"
+                    data-bs-toggle="tooltip" data-bs-trigger="focus" title='{{ i18n "clipboard_copy" }}'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-files" viewBox="0 0 16 16">
+                        <path
+                            d="M13 0H6a2 2 0 0 0-2 2 2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm0 13V4a2 2 0 0 0-2-2H5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1zM3 4a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4z" />
+                    </svg>
+                </button>
+                <div class="col-12">
+                    <button type="button" class="btn m-1 mt-2 text-white" id="clearButton" aria-label="clearButton">
+                        {{ i18n "clear" }}
+                    </button>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

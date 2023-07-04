@@ -1,0 +1,160 @@
+- id: translate_text
+  translation: Text translation
+- id: translate_docs
+  translation: Document translation
+- id: translate_subtitles
+  translation: Subtitles translation
+- id: transcription
+  translation: Transcribe
+- id: transcription_media
+  translation: Transcribe media file
+- id: transcription_online
+  translation: Online transcription
+- id: transcription_streaming
+  translation: Transcription in streaming
+- id: synthesis
+  translation: Voice synthesis
+- id: synthesis_text
+  translation: Text-to-speech
+- id: slogan
+  translation: Language Technologies
+- id: description
+  translation: The first platform to translate, transcribe and synthesize content in Spanish, Basque, Galician and Catalan.
+- id: translate
+  translation: Translate
+- id: model
+  translation: Model
+- id: es2eu
+  translation: Spanish - Basque
+- id: eu2es
+  translation: Basque - Spanish
+- id: eu2en
+  translation: Basque - English
+- id: en2eu
+  translation: English - Basque
+- id: eu2fr
+  translation: Basque - French
+- id: fr2eu
+  translation: French - Basque
+- id: es2en
+  translation: Spanish - English
+- id: en2es
+  translation: English - Spanish
+- id: es2fr
+  translation: Spanish - French
+- id: fr2es
+  translation: French - Spanish
+- id: es2ca
+  translation: Spanish - Catalan
+- id: ca2es
+  translation: Catalan - Spanish
+- id: es2gl
+  translation: Spanish - Galician
+- id: gl2es
+  translation: Galician - Spanish
+- id: spanish
+  translation: Spanish
+- id: basque
+  translation: Basque
+- id: english
+  translation: English
+- id: catalan
+  translation: Catalan
+- id: galician
+  translation: Galician
+- id: input_text
+  translation: Text input
+- id: make_translation
+  translation: Translate
+- id: make_transcription
+  translation: Transcribe
+- id: diarization
+  translation: Diarization
+- id: diarization_info
+  translation: Speaker identification
+- id: output_filename
+  translation: Output filename (optional)
+- id: output_formats
+  translation: Output formats
+- id: send_link
+  translation: Send link
+- id: send_attachment
+  translation: Send attachment
+- id: generate
+  translation: Generate
+- id: clear
+  translation: Clear
+- id: clipboard_copy
+  translation: Copied
+- id: drop_file
+  translation: Drop file here
+- id: loading
+  translation: Loading
+- id: loading_file
+  translation: Loading file
+- id: we_translate_text
+  translation: We'll translate the text and
+- id: we_translate_file
+  translation: We'll translate the file and
+- id: we_transcribe_file
+  translation: We'll transcribe the file and
+- id: we_synthesize_text
+  translation: We'll synthesize the text and
+- id: result_in_email
+  translation: you'll receive the result in your email
+- id: wait
+  translation: This may take a few minutes
+- id: start_recording
+  translation: Start recording
+- id: end_recording
+  translation: End recording
+- id: transcribing_audio
+  translation: Transcribing audio
+- id: event_datetime
+  translation: Date and time of the event
+- id: duration_hours
+  translation: Duration of the event
+- id: event_language
+  translation: Language of the event
+- id: wanted_services
+  translation: Wanted services
+- id: realtime_subtitulation
+  translation: Real-time subtitling
+- id: subtitles_file_generation
+  translation: Generation of subtitles file
+- id: transcription_file_generation
+  translation: Transcription document generation
+- id: translation_generation_languages
+  translation: Translation generation in
+- id: transmission_stats_report
+  translation: Transmission statistics report
+- id: transmission_type
+  translation: Type of transmission you want to perform
+- id: submit
+  translation: Submit
+- id: request_key
+  translation: Request key
+- id: need_key
+  translation: I don't have a key
+- id: name
+  translation: Name
+- id: surname
+  translation: Surnames
+- id: company
+  translation: Company
+- id: phone
+  translation: Phone
+- id: email
+  translation: Email
+- id: comments
+  translation: Comments
+- id: send
+  translation: Send
+- id: comment_interest
+  translation: Why are you interested? What services are you going to use?
+- id: find_us
+  translation: We are here
+- id: contact
+  translation: Contact
+- id: duration
+  translation: Duration
