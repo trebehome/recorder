@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Demos | TREBE Language Technologies S.L.</title>
-    <link>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/eu/categories/</link>
+    <link>https://trebehome.github.io/recorder/eu/categories/</link>
     <description>Recent content in Categories on Demos | TREBE Language Technologies S.L.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>eu</language><atom:link href="https://trebehome.github.io/recorder/transcripci%C3%B3n/online/eu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>eu</language><atom:link href="https://trebehome.github.io/recorder/eu/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

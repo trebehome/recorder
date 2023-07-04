@@ -2,79 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Demos | TREBE Language Technologies S.L.</title>
-    <link>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/</link>
+    <link>https://trebehome.github.io/recorder/en/</link>
     <description>Recent content on Demos | TREBE Language Technologies S.L.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://trebehome.github.io/recorder/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Document translation</title>
-      <link>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/translate/docs/</link>
+      <link>https://trebehome.github.io/recorder/en/translate/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/translate/docs/</guid>
+      <guid>https://trebehome.github.io/recorder/en/translate/docs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Request key</title>
-      <link>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/request/key/</link>
+      <link>https://trebehome.github.io/recorder/en/request/key/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/request/key/</guid>
+      <guid>https://trebehome.github.io/recorder/en/request/key/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Streaming transcription</title>
-      <link>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/transcribe/streaming/</link>
+      <link>https://trebehome.github.io/recorder/en/transcribe/streaming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/transcribe/streaming/</guid>
+      <guid>https://trebehome.github.io/recorder/en/transcribe/streaming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Subtitles translation</title>
-      <link>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/translate/subtitles/</link>
+      <link>https://trebehome.github.io/recorder/en/translate/subtitles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/translate/subtitles/</guid>
+      <guid>https://trebehome.github.io/recorder/en/translate/subtitles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Text-to-speech</title>
-      <link>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/synthesis/text/</link>
+      <link>https://trebehome.github.io/recorder/en/synthesis/text/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/synthesis/text/</guid>
+      <guid>https://trebehome.github.io/recorder/en/synthesis/text/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transcribe</title>
-      <link>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/transcribe/media/</link>
+      <link>https://trebehome.github.io/recorder/en/transcribe/media/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/transcribe/media/</guid>
+      <guid>https://trebehome.github.io/recorder/en/transcribe/media/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transcribe online</title>
-      <link>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/transcribe/online/</link>
+      <link>https://trebehome.github.io/recorder/en/transcribe/online/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/transcribe/online/</guid>
+      <guid>https://trebehome.github.io/recorder/en/transcribe/online/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Translate</title>
-      <link>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/translate/text/</link>
+      <link>https://trebehome.github.io/recorder/en/translate/text/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://trebehome.github.io/recorder/transcripci%C3%B3n/online/en/translate/text/</guid>
+      <guid>https://trebehome.github.io/recorder/en/translate/text/</guid>
       <description></description>
     </item>
     
