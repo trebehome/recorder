@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>gl</language><atom:link href="https://trebehome.github.io/recorder/gl/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Gravadora Online</title>
+      <link>https://trebehome.github.io/recorder/gl/recorder/record/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://trebehome.github.io/recorder/gl/recorder/record/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Síntese de voz</title>
       <link>https://trebehome.github.io/recorder/gl/s%C3%ADntese/texto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
