@@ -83,60 +83,6 @@
                 href="https://trebehome.github.io/recorder/en/translate/docs/"
                 />
   </url><url>
-    <loc>https://trebehome.github.io/recorder/en/recorder/record/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://trebehome.github.io/recorder/es/recorder/record/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="eu"
-                href="https://trebehome.github.io/recorder/eu/recorder/record/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://trebehome.github.io/recorder/ca/recorder/record/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="gl"
-                href="https://trebehome.github.io/recorder/gl/recorder/record/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://trebehome.github.io/recorder/en/recorder/record/"
-                />
-  </url><url>
-    <loc>https://trebehome.github.io/recorder/en/recorder/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://trebehome.github.io/recorder/es/recorder/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="eu"
-                href="https://trebehome.github.io/recorder/eu/recorder/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ca"
-                href="https://trebehome.github.io/recorder/ca/recorder/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="gl"
-                href="https://trebehome.github.io/recorder/gl/recorder/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://trebehome.github.io/recorder/en/recorder/"
-                />
-  </url><url>
     <loc>https://trebehome.github.io/recorder/en/request/key/</loc>
     <xhtml:link
                 rel="alternate"
@@ -362,7 +308,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="eu"
-                href="https://trebehome.github.io/recorder/eu/transcribe/online/"
+                href="https://trebehome.github.io/recorder/eu/transkribatu/online/"
                 />
     <xhtml:link
                 rel="alternate"
