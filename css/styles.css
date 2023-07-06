@@ -336,9 +336,12 @@ button:focus {
 #subtransButton,
 #synthesisButton,
 #transcribeButton,
-#requestButton {
+#requestButton,
+#gorecordbutton {
     background-color: var(--trebe-blue) !important;
 }
+
+
 
 #recordStartButton,
 #stopRecordingButton,
