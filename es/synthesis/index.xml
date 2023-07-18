@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Syntheses on Demos | TREBE Language Technologies S.L.</title>
-    <link>https://trebehome.github.io/recorder/es/synthesis/</link>
+    <link>https://trebehome.github.io/record/es/synthesis/</link>
     <description>Recent content in Syntheses on Demos | TREBE Language Technologies S.L.</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>es</language><atom:link href="https://trebehome.github.io/recorder/es/synthesis/index.xml" rel="self" type="application/rss+xml" />
+    <language>es</language><atom:link href="https://trebehome.github.io/record/es/synthesis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Síntesis de voz</title>
-      <link>https://trebehome.github.io/recorder/es/s%C3%ADntesis/texto/</link>
+      <link>https://trebehome.github.io/record/es/s%C3%ADntesis/texto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://trebehome.github.io/recorder/es/s%C3%ADntesis/texto/</guid>
+      <guid>https://trebehome.github.io/record/es/s%C3%ADntesis/texto/</guid>
       <description></description>
     </item>
     

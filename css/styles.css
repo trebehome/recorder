@@ -335,13 +335,12 @@ button:focus {
 #doctransButton,
 #subtransButton,
 #synthesisButton,
+#recordStartButton1,
+#recordEndButton1,
 #transcribeButton,
-#requestButton,
-#gorecordbutton {
+#requestButton {
     background-color: var(--trebe-blue) !important;
 }
-
-
 
 #recordStartButton,
 #stopRecordingButton,
@@ -349,8 +348,9 @@ button:focus {
 #recordEndButton,
 #cancelRecordingButton {
     background-color: transparent;
-    font-size: 24px; /* Ajusta el tamaño del icono */
-    padding: 10px 20px;
+        background-color: var(--trebe-blue) !important;
+        white-space: nowrap; /* Evitar salto de línea */
+
 }
 
 
